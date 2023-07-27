@@ -1,0 +1,4 @@
+﻿[
+  "Select Count(*) as [RecordCount] From [dbo].[Table1]",
+  "Select Count(*) as [RecordCount] From [dbo].[Table2]"
+]

@@ -1,0 +1,32 @@
+{
+  "source": {
+    "resourceGroup": "Group1",
+    "container": "container1",
+    "storageAccountUrl": "https://store1.blob.core.windows.net/",
+    "subscription": "subscription1"
+  },
+  "target": {
+    "resourceGroup": "Group2",
+    "container": "container1",
+    "storageAccountUrl": "https://store2.blob.core.windows.net/",
+    "subscription": "subscription2"
+  },
+  "databaseConfigs": [
+    {
+      "sourceResourceGroup": "Group1",
+      "sourceServer": "{__sourceserver1__}.database.windows.net",
+      "sourceDB": "db1",
+      "targetResourceGroup": "Group2",
+      "targetServer": "{__targetserver1__}.database.windows.net",
+      "targetDB": "db1"
+    },
+    {
+      "sourceResourceGroup": "Group1",
+      "sourceServer": "{__sourceserver2__}.database.windows.net",
+      "sourceDB": "db2",
+      "targetResourceGroup": "Group2",
+      "targetServer": "{__targetserver2__}.database.windows.net",
+      "targetDB": "db2"
+    }
+  ]
+}
